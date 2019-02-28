@@ -24,7 +24,9 @@ public class GraphicsRunner extends JFrame {
     public GraphicsRunner(){
         setSize(WIDTH,HEIGHT);
         //getContentPane().add(new SmileyFace());
-        getContentPane().add(new BigHouse());
+        //getContentPane().add(new BigHouse());
+        //getContentPane().add(new Robot());
+        getContentPane().add(new ShapePanel());
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
